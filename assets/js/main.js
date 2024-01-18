@@ -17,5 +17,5 @@ function removeSpaces() {
     // console.log(newStr);
 
 
-    document.querySelector('#h4').innerHTML = newStr;
+    document.querySelector('#h4').innerHTML = `Result : ${newStr}`;
 }
